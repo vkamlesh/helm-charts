@@ -183,7 +183,10 @@ server:
     ## web.enable-admin-api flag controls access to the administrative HTTP API which includes functionality such as
     ## deleting time series. This is disabled by default.
     # - web.enable-admin-api
-    ##
+    ## web.external-url flag expose Prometheus externally.
+    # - web.external-url
+    ## web.route-prefix flag for internal routes.
+    # - web.route-prefix
     ## storage.tsdb.no-lockfile flag controls BD locking
     # - storage.tsdb.no-lockfile
     ##
